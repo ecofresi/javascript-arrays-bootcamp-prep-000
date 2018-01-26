@@ -20,4 +20,4 @@ function addElementToBeginningOfArray(array,element)
 return array.unshift(element);
 }
 
-destructivelyAddElementToBeginningOfArray(cities, 'foo')
+destructivelyAddElementToBeginningOfArray(cities, 'Milan')
