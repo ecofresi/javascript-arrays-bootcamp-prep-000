@@ -8,7 +8,7 @@ cities = ["New York", "San Francisco"];
 
 function addElementToBeginningOfArray(array,element)
 {
-y[...element];
+cities[...element];
 }
 
 addElementToBeginningOfArray(cities,"Miami");
