@@ -10,4 +10,5 @@ function addElementToBeginningOfArray(array, element)
 {
 array[...element];
 }
+
 addElementToBeginningOfArray(cities,"Miami");
