@@ -15,9 +15,8 @@ return [element,...array];
 
 addElementToBeginningOfArray(cities,"Miami");
 
-function addElementToBeginningOfArray(array,element)
-{
-return array.unshift(element);
+function destructivelyAddElementToBeginningOfArray(array,element){
+  
 }
 
-destructivelyAddElementToBeginningOfArray(cities, 'Milan')
+destructivelyAddElementToBeginningOfArray(cities, 'Milan');
