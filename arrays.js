@@ -4,3 +4,10 @@ TODO: In arrays.js, define a variable called chocolateBars. Its value should be 
 
 var chocolateBars = new Array('snickers, hundred grand, kitkat, and skittles')
 
+var cities = ["New York", "San Francisco"];
+
+function addElementToBeginningOfArray(array, element)
+{
+array[...element];
+}
+addElementToBeginningOfArray(cities,"Miami");
