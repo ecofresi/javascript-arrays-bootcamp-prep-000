@@ -6,7 +6,7 @@ var chocolateBars = new Array('snickers', 'hundred grand', 'kitkat', 'skittles')
 
 //TODO2
 
-cities = ["foo", "San Francisco"];
+cities = ["NYC", "San Francisco"];
 
 function addElementToBeginningOfArray(array,element)
 {
@@ -14,3 +14,9 @@ return [element,...array];
 }
 
 addElementToBeginningOfArray(cities,"Miami");
+
+function addElementToBeginningOfArray(array,element)
+{
+return [array.unshift(element)];
+}
+destructivelyAddElementToBeginningOfArray(array, 'foo')
