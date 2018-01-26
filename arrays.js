@@ -11,6 +11,6 @@ cities = ["New York", "San Francisco"];
 function addElementToBeginningOfArray(array,element)
 {
 
-}
+};
 
 addElementToBeginningOfArray(cities,"Miami");
