@@ -3,3 +3,4 @@ TODO: In arrays.js, define a variable called chocolateBars. Its value should be 
 */
 
 var chocolateBars = new Array('snickers, hundred grand, kitkat, and skittles')
+
