@@ -10,13 +10,13 @@ cities = ["foo", "San Francisco"];
 
 function addElementToBeginningOfArray(array,element)
 {
-return [element,...array];
+  return [element,...array];
 }
 
 addElementToBeginningOfArray(cities,"Miami");
 
 function destructivelyAddElementToBeginningOfArray(array,element){
-  array.unshift(element);
+  return array.unshift(element);
 }
 
 destructivelyAddElementToBeginningOfArray(cities, 'Milan');
