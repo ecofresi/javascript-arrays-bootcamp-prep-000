@@ -6,7 +6,7 @@ var chocolateBars = new Array('snickers', 'hundred grand', 'kitkat', 'skittles')
 
 //TODO2
 
-cities = ["NYC", "San Francisco"];
+cities = ["foo", "San Francisco"];
 
 function addElementToBeginningOfArray(array,element)
 {
