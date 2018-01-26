@@ -10,7 +10,7 @@ cities = ["foo", "San Francisco"];
 
 function addElementToBeginningOfArray(array,element)
 {
-return cities.unshift(element);
+return [element,...array];
 }
 
 addElementToBeginningOfArray(cities,"Miami");
