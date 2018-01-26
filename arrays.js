@@ -15,8 +15,12 @@ function addElementToBeginningOfArray(array,element)
 
 addElementToBeginningOfArray(cities,"Miami");
 
+//TODO3
+
+cities2 = ["foo", "San Francisco"];
+
 function destructivelyAddElementToBeginningOfArray(array,element){
   return [array.unshift(element)];
 }
-cities2 = ["foo", "San Francisco"];
+
 destructivelyAddElementToBeginningOfArray(cities2, 'foo');
